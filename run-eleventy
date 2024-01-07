@@ -1,4 +1,0 @@
-#!/bin/zsh
-
-rm -rf _site
-eleventy
