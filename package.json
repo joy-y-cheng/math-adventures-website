@@ -5,7 +5,9 @@
   "main": "eleventy.config.js",
   "scripts": {
     "test": "",
-    "build": ""
+    "prebuild": "rm -rf _site",
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve"
   },
   "keywords": [],
   "author": "",
