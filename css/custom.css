@@ -227,7 +227,7 @@ body {
 .menu-button {
     width: 30px;
     height: 24px;
-    background-image: url("menu_closed.svg");
+    background-image: url("../menu_closed.svg");
 }
 
 .navbar-toggler {
@@ -441,13 +441,13 @@ a.nav-item.nav-link.active {
 }
 
 .carousel-control-prev-icon {
-    background-image: url("prev_arrow.svg") !important;
+    background-image: url("../prev_arrow.svg") !important;
     width: 24px;
     height: 46px;
 }
 
 .carousel-control-next-icon {
-    background-image: url("next_arrow.svg") !important;
+    background-image: url("../next_arrow.svg") !important;
     width: 24px;
     height: 46px;
 }
