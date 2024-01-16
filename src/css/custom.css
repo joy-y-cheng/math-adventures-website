@@ -35,7 +35,6 @@ h1 {
     }
 }
 
-
 h2 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -155,13 +154,16 @@ ul {
 html, body {
     height: 100%;
 }
+
 body {
     display: flex;
     flex-direction: column;
 }
+
 .main-container {
     flex: 1 0 auto;
 }
+
 .footer {
     flex-shrink: 0;
 }
@@ -244,7 +246,7 @@ body {
     border: none;
 }
 
-.navbar-brand:hover{
+.navbar-brand:hover {
     border:none;
 }
 
@@ -386,9 +388,7 @@ a.nav-item.nav-link.active {
     border-radius: 0px;
     border: 0px;
     color: rgba(255, 255, 255, 0.5);
-    
     transition: all .15s ease-in-out;
-    
 }
 
 .accordion-btn:hover {
