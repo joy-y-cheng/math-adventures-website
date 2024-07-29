@@ -20,7 +20,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="{{root}}favicon.png" type="image/x-icon">
         
-        <title>Math Adventures - {{title}}</title>
+        {%- if title == "Home" -%}
+        <title>Math Adventures</title>
+        {%- else -%}
+        <title>{{title}} - Math Adventures</title>
+        {%- endif -%}
         
     </head>
     
